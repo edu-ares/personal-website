@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Noto Serif', serif;
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 60em;
+
+}
+
+a {
+    color: skyblue;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+footer ul li {
+    list-style: none;
+}
