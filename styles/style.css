@@ -5,13 +5,20 @@ body {
     font-size: 1.25em;
     padding: 1em;
     text-align: center;
+    max-width: 50em;
+    margin: 1em auto;
+    padding: 1em 2em;
 }
 
 h1 {
     font-weight: 500;
 }
 
-.nav a, .footer a {
+main {
+    text-align: start;
+}
+
+a {
     text-decoration: none;
     color: #c9e3da;
     font-weight: 300;
@@ -19,7 +26,7 @@ h1 {
     display: inline-block;
 }
 
-.nav a:hover, .footer a:hover{
+a:hover{
   color: #dac9e3;
 }
 
