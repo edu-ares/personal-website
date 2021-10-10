@@ -3,7 +3,6 @@ body {
     color: #f4f1eb;
     font-family: 'Noto Serif', serif;
     font-size: 1.25em;
-    padding: 1em;
     text-align: center;
     max-width: 50em;
     margin: 1em auto;
@@ -15,7 +14,7 @@ h1 {
 }
 
 main {
-    text-align: start;
+    text-align: center;
 }
 
 a {
@@ -39,6 +38,7 @@ nav ul li, footer ul li{
     ul {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
 

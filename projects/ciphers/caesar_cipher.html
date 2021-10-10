@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,26 @@
     <title>Reverse Cipher</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    <h1>Reverse a string using JavaScript</h1>
+    <h1>Caesar Cipher</h1>
     <div>
-        <label for="textIn">Write the text you want to be reversed:</label>
+        <label for="keyIn">Write the key for encryption:</label>
+        <input type="number" id="keyIn" name="keyIn"></input><br>
+
+        <label for="textIn">Write the text you want to be encrypted:</label>
         <textarea id="txtIn" name="textIn" rows="5" cols="33"></textarea><br>
     </div>
     <div><br>
-        <button id="btnReverse">Reverse</button>
+        <button id="btn_encrypt">Encrypt</button>
+        <button id="btn_decrypt">Decrypt</button>
         <br>
     </div>
-    <div><p>Result:</p>
+    <div>
+        <p>Result:</p>
         <p id="txtOut"></p>
     </div>
-<script src="script/reverse-cipher.js"></script>
+    <script src="script/caesar_cipher.js"></script>
 </body>
+
 </html>

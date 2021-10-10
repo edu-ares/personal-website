@@ -1,0 +1,98 @@
+body {
+  background-color: #120f0a;
+  color: #f4f1eb;
+  font-family: "Noto Serif", serif;
+  font-size: 1.25em;
+  text-align: center;
+  max-width: 50em;
+  margin: 1em auto;
+  padding: 1em 2em;
+}
+
+.projects {
+  background-color: #120f0a;
+  color: #f4f1eb;
+  font-family: "Noto Serif", serif;
+  font-size: 1.25em;
+  text-align: center;
+  max-width: 50em;
+  margin: 1em auto;
+  padding: 1em 2em;
+}
+
+h1 {
+  font-weight: 500;
+  color: #c9e3da;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+main {
+  text-align: start;
+}
+
+a {
+  text-decoration: none;
+  color: #c9e3da;
+  font-weight: 300;
+  padding: 14px 25px;
+  display: inline-block;
+}
+a:hover, button:hover{
+  color: #dac9e3;
+}
+
+label,
+textarea,
+p,
+input {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  background-color: #120f0a;
+  color: #f4f1eb;
+}
+textarea,
+input {
+  padding: 10px;
+  width: 500px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 2px solid #e3dac9;
+  box-shadow: 1px 1px 1px #ffa384;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+.txtOut {
+  color: #ffa384;
+}
+button {
+  background: none;
+  color: #c9e3da;
+  border: solid 1px;
+  padding: 1em 2em;
+  font-size: 1em;
+}
+
+button:active {
+  color: #74bdcb;
+}
+textarea:focus {
+  border: 2px solid #ffa384;
+}
+
+nav ul li, footer ul li{
+  display: inline-block;
+  list-style: none;
+}
+
+@media (max-width: 450px) {
+  ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}
